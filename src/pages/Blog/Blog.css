@@ -1,0 +1,354 @@
+.blog-div-mother {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.container-illustration-and-paragraph-div {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+}
+.container-illustration-and-paragraph-div img {
+  width: 45%;
+}
+.marketing-strategies-paragraph {
+  background-color: grey;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin-top: 40px;
+}
+.ppc-vs-oragnic-paragraph {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.line-div-end-paragraph {
+  margin-top: 50px;
+  width: 100%;
+  height: 1px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+.center-write-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-inline: 100px;
+}
+.paragraph-one-end-div {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.paragraph-two-end-div {
+  margin-top: 15px;
+}
+.paragraph-three-end-div {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.paragraph-four-end-div {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.paragraph-fife-end-div {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.ppc-and-organic-paragraph {
+  margin-bottom: 30px;
+}
+.paragraph-six-end-div {
+  margin-bottom: 15px;
+}
+.paragraph-seven-end-div {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+.businesses-earn-average-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.businesses-earn-average-paragraph {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px;
+}
+.two-dollar-paragraph {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.clicks-paragraph {
+  width: 68%;
+  border-radius: 20px;
+  background-color: #b9ff66;
+  padding: 15px;
+}
+.fourty-one-faiz {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.content-marketing-top-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.content-marketing-paragraph {
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  padding: 15px;
+  width: 68%;
+}
+.display-content-and-faiz {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.less-than-paid-ads {
+  font-size: 20px;
+  font-weight: 600;
+}
+.organic-search-drives-div {
+  width: 30%;
+  background-color: #191a23;
+  border-radius: 20px;
+  padding: 15px;
+  color: #fff;
+}
+.fifty-three-paragraph{
+    display: flex;
+    flex-direction: row;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.fifty-three-faiz{
+    color: #B9FF66;
+}
+.making-it-the-langest-paragraph {
+    font-size: 11px;
+}
+.real-world-div-paragraph{
+    margin-top: 40px;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.real-world-examples{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.key-takeaways{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.choosing-the-best{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.lorem-top-fife{
+    margin-bottom: 20px;
+}
+.explore-more-top{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 70px;
+
+}
+.explore-more-insights{
+    background-color: #B9FF66;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.case-studies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    margin: 50px auto;
+  }
+  
+  .case-card {
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  
+  .case-card:nth-child(3n) {
+    border-right: none;
+  }
+  
+  .case-card:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
+  
+  .case-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .case-card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .arrow {
+    background-color: #c6ff00;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+
+
+
+  @media (max-width: 1024px) {
+    .container-illustration-and-paragraph-div {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 30px;
+    }
+  
+    .container-illustration-and-paragraph-div img {
+      width: 100%;
+    }
+  
+    .center-write-paragraph,
+    .real-world-div-paragraph {
+      padding-inline: 40px;
+    }
+  
+    .businesses-earn-average-div {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .businesses-earn-average-paragraph,
+    .clicks-paragraph {
+      width: 100%;
+    }
+  
+    .content-marketing-top-div,
+    .display-content-and-faiz {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .content-marketing-paragraph,
+    .organic-search-drives-div {
+      width: 100%;
+    }
+  
+    .explore-more-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  }
+  
+  /* Mobile (maksimum 767px) */
+  @media (max-width: 767px) {
+    .container-illustration-and-paragraph-div {
+      padding: 15px;
+      gap: 20px;
+    }
+  
+    .center-write-paragraph,
+    .real-world-div-paragraph {
+      padding-inline: 20px;
+    }
+  
+    .ppc-vs-oragnic-paragraph,
+    .paragraph-one-end-div,
+    .paragraph-three-end-div,
+    .paragraph-fife-end-div,
+    .paragraph-seven-end-div,
+    .real-world-examples,
+    .key-takeaways,
+    .choosing-the-best {
+      font-size: 22px;
+    }
+  
+    .two-dollar-paragraph,
+    .fourty-one-faiz,
+    .less-than-paid-ads,
+    .fifty-three-paragraph {
+      font-size: 16px;
+    }
+  
+    .making-it-the-langest-paragraph {
+      font-size: 10px;
+    }
+  
+    .case-card h3 {
+      font-size: 16px;
+    }
+  
+    .case-card p {
+      font-size: 12px;
+    }
+  
+    .explore-more-insights {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .case-studies-container {
+      grid-template-columns: 1fr;
+    }
+  }

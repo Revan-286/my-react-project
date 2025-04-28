@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import Header from "./pages/Header/Header";
+import Footer from "./pages/Footer/Footer";
+import Positivus from "./pages/Positivus/Positivus";
+import Aboutus from "./pages/Aboutus/Aboutus";
+import Services from "./pages/Services/Services";
+import UseCases from "./pages/UseCases/UseCases"
+import Pricing from "./pages/Pricing/Pricing";
+import Blog from "./pages/Blog/Blog";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+    {/* <UseCases /> */}
+
+
+
+    <Routes>
+    <Route path="/"       element={ <Positivus /> } />
+    <Route path="/positivus"       element={ <Positivus /> }  />
+    <Route path="/about"           element={ <Aboutus /> }  />
+    <Route path="/services"        element={ <Services /> }  />
+    <Route path="/usecases"        element={ <UseCases />}  />
+    <Route path="/pricing"         element={ <Pricing /> }  />
+    <Route path="/blog"            element={ <Blog /> }  />
+    </Routes>
+    </>
+  )
+};
 
 export default App;

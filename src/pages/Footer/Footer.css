@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-inline: 15px;
+}
+.footer{
+    background-color: #191A23;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 15px 10px 15px 10px;
+   
+}
+.footer-one-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+.positivus{
+    width: 200px;
+}
+.footer-one-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkedin-contacts{
+    color: #fff;
+    margin-right: 15px;
+}
+.facebook-contacts{
+    color: #fff;
+    margin-right: 15px;
+}
+.twitter-contacts{
+    color: #fff;
+    margin-right: 15px;
+}
+.footer-contacts{
+    color: #fff;
+    font-size: 18px;
+}
+.linkedin{
+    color: #fff;
+    width: 60px;
+}
+.facebook{
+    color:#fff;
+    width: 60px;
+}
+.twitter{
+    color:#fff;
+    width: 60px;
+}
+.contact-us{
+    font-size: 17px;
+    background-color: #B9FF66;
+    width: 117px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: 450;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.email-com{
+    color: #fff;
+    margin-top: 15px;
+}
+.email-top{
+    margin-top: 15px;
+}
+.footer-email-subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subscribe-and-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #292A32;
+    width: 600px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.email-div{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px; 
+}
+.subscribe-div{
+    width: 200px;
+    height: 50px;   
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #B9FF66;
+    border-radius: 10px;
+}
+.line-footer{
+    width: 100%;
+    margin-top: 15px;
+}
+.all-rights-reserved{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.all-rights-reserved p,a{
+    color: white;
+}
+
+
+
+@media (max-width: 1024px) {
+    .footer-one-display {
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .positivus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-one-contacts {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .subscribe-and-email {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .email-div,
+    .subscribe-div {
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+    }
+  
+    .footer-email-subscribe {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .all-rights-reserved {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+
+
+
+
+
+  @media (max-width: 767px) {
+    .footer-one-display {
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+    }
+  
+    .positivus {
+      width: 150px;
+    }
+  
+    .footer-one-contacts {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .contact-us {
+      font-size: 15px;
+      width: auto;
+      padding: 5px 10px;
+      margin-left: 0;
+    }
+  
+    .subscribe-and-email {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .email-div,
+    .subscribe-div {
+      width: 100%;
+      margin-bottom: 10px;
+      justify-content: center;
+    }
+  
+    .footer-email-subscribe {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .email-top,
+    .email-com {
+      font-size: 14px;
+    }
+  
+    .all-rights-reserved {
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+
+
+
+
+

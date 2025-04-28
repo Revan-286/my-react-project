@@ -1,0 +1,335 @@
+.services-top-div-mother{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.expert-digital-marketing-services{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 25px;
+}
+.expert-digital-marketing-services img{
+    width: 350px;
+}
+.export-digital{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.sarch-seo-div-top{
+    background-color: #191A23;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    margin-top: 70px;
+}
+.search-seo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.optimization-div{
+    background-color: #B9FF66;
+    color: black;
+    border-radius: 10px;
+}
+.boost-my-ramkings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+.step-by-step-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+}
+.step-by-step-paragraph{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.seo-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    /* max-width: 800px; */
+    width: 100%;
+    margin: auto;
+  }
+  
+  .seo-card {
+    display: flex;
+    align-items: flex-start;
+    background: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    gap: 20px;
+  }
+  
+  .seo-number {
+    background: black;
+    color: limegreen;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+    min-width: 60px;
+    text-align: center;
+  }
+  
+  .seo-title {
+    margin: 0 0 8px;
+    font-size: 18px;
+  }
+  
+  .seo-description {
+    margin: 0;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .use-cases-paragraph{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .learns-mores-top-div {
+    width: 100%;
+    background-color: #191a23;
+    margin-top: 60px;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  .learns-mores-top-div a {
+    color: #b9ff66;
+    text-decoration: none;
+  }
+  .learns-mores-top-div p {
+    color: #fff;
+  }
+  .our-other-services{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    /* max-width: 900px; */
+    width: 100%;
+    margin: auto;
+  }
+  
+  .service-card {
+    background-color: #f6f6f6;
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 140px;
+    transition: transform 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  .learn-more {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .arrow {
+    color: limegreen;
+    font-size: 16px;
+    margin-right: 6px;
+  }
+ 
+  .ready-lorem-let-start-div{
+    width: 100%;
+    border: 2px outset black;
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ready-to-elevate-your-serach{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .lorem-ipsum-dolor-paragraph-ready-lorem-let-start{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .start-my-seo-journey-paragraph{
+    margin-top: 15px;
+    background-color: #B9FF66;
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .end-page-div{
+    width: 300px;
+    margin-right: 40px;
+  }
+
+
+
+
+
+  @media (max-width: 1024px) {
+    .expert-digital-marketing-services {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .expert-digital-marketing-services img {
+      width: 300px;
+      margin-top: 30px;
+    }
+  
+    .search-seo-div,
+    .step-by-step-div,
+    .ready-lorem-let-start-div {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .boost-my-ramkings {
+      width: 100%;
+    }
+  
+    .seo-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .seo-number {
+      transform: rotate(0);
+      margin-bottom: 10px;
+    }
+  
+    .cards-grid {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  
+    .start-my-seo-journey-paragraph {
+      width: 100%;
+    }
+  
+    .lorem-ipsum-dolor-paragraph-ready-lorem-let-start {
+      width: 100%;
+    }
+  
+    .end-page-div {
+      margin-right: 0;
+      margin-top: 30px;
+    }
+    .learns-mores-top-div img{
+        display: none;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    .export-digital {
+      font-size: 28px;
+    }
+  
+    .boost-my-ramkings {
+      height: auto;
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .seo-card {
+      padding: 15px;
+    }
+  
+    .seo-title {
+      font-size: 16px;
+    }
+  
+    .seo-description {
+      font-size: 14px;
+    }
+  
+    .cards-grid {
+      padding: 20px;
+    }
+  
+    .service-card {
+      padding: 20px;
+    }
+  
+    .start-my-seo-journey-paragraph {
+      height: auto;
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .ready-to-elevate-your-serach {
+      font-size: 24px;
+    }
+  
+    .learns-mores-top-div {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+      text-align: center;
+    }
+  }
+
+
+
+

@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-inline: 15px;
+}
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.together-for-success-div{
+    display: flex;
+    flex-direction: row;
+    background-color:#F3F3F3;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.together-for-success-png{
+    width: 450px;
+}
+.together-for-success{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.our-impact-in-numbers-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.our-impact-in-numbers{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 330px;
+}
+.top-card-div-plas-and-faiz-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.top-card-div-plas-and-faiz{
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.plus-first-paragraph{
+    font-size: 30px;
+    font-weight: 600;
+}
+.our-journey{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 180px;
+}
+.number-one{
+    font-size: 50px;
+    font-weight: 600;
+}
+.numbers-and-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.the-beginning-div{
+    background-color: #191A23;
+    color: #fff;
+    padding-inline: 100px;
+    padding-block:20px;
+    border-radius: 25px;
+    width: 500px;
+}
+.the-beginning-paragraph{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.numbers-and-cards-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.numbers-and-cards-three{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.numbers-and-cards-four{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.core-values-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.core-values-paragraph{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.top-client-success-first-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.client-success-first-div{
+    padding-inline: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+    border: 3px outset black;
+    border-radius: 25px;
+    width: 48%;
+    height: 180px;
+    margin-top: 60px;
+}
+.client-success-first{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.client-success-first-div{
+    padding-inline: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+    border: 3px outset black;
+    border-radius: 25px;
+    width: 48%;
+    height: 180px;
+    margin-top: 30px;
+}
+.eve-success-is-built-on-innovation-div{
+    background-color:#191A23;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+    margin-top: 100px;
+}
+.first-eve-success-is-built-on-innovation{
+    color:#fff;
+    font-size: 35px;
+}
+.second-eve-success-is-built-on-innovation{
+    color: #fff;
+    margin-top:15px;
+}
+.eye-smalik{
+    position: relative;
+}
+.eye-smalik img{
+    position: absolute;
+    width: 400px;
+    bottom: 30px;
+}
+.awards-paragraph{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fours-cards-divs-mother{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.four-card-div-top{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+.four-card-div-top img{
+    width: 100px;
+}
+.paragraph-carad-div-top{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.join-our-team-div{
+    background-color: #B9FF66;
+    width: 100%;
+    border: 2px outset black;
+    border-radius: 25px;
+    height: 250px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.join-our-team-paragarph{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.explore-careers{
+    margin-top: 20px;
+    background-color: #191A23;
+    width: 200px;
+    height:40px;
+    border-radius:10px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .together-for-success-div,
+    .top-card-div-plas-and-faiz-div,
+    .numbers-and-cards,
+    .numbers-and-cards-two,
+    .numbers-and-cards-three,
+    .numbers-and-cards-four,
+    .core-values-div,
+    .top-client-success-first-div,
+    .fours-cards-divs-mother {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .together-for-success-png {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .together-for-success {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .top-card-div-plas-and-faiz,
+    .client-success-first-div,
+    .four-card-div-top,
+    .the-beginning-div {
+      width: 90%;
+    }
+  
+    .subscribe-and-email {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .email-div,
+    .subscribe-div {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .eye-smalik img {
+      width: 100%;
+      position: static;
+      margin-top: 20px;
+    }
+  
+    .join-our-team-div {
+      height: auto;
+      padding: 30px 20px;
+    }
+  
+    .join-our-team-paragarph {
+      text-align: center;
+    }
+  
+    .explore-careers {
+      margin: 0 auto;
+    }
+    .top-card-div-plas-and-faiz{
+      margin-top: 10px;
+    }
+    .explore-careers{
+      margin-top: 15px;
+    }
+    .awards-paragraph{
+      margin-bottom: 15px;
+      width: 500px;
+    }
+    .eye-smalik{
+      display: none;
+    }
+  }
+  
+
+
+
+  @media (max-width: 767px) {
+    .together-for-success {
+      font-size: 30px;
+    }
+  
+    .our-impact-in-numbers,
+    .our-journey,
+    .core-values-paragraph,
+    .awards-paragraph {
+      width: auto;
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .number-one {
+      font-size: 30px;
+    }
+  
+    .plus-first-paragraph {
+      font-size: 20px;
+    }
+  
+    .first-eve-success-is-built-on-innovation {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .second-eve-success-is-built-on-innovation {
+      text-align: center;
+    }
+  
+    .email-div,
+    .subscribe-div {
+      height: 45px;
+    }
+  
+    .join-our-team-div {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+  
+    .four-card-div-top {
+      height: auto;
+      padding: 15px;
+    }
+  }
+
